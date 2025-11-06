@@ -29,7 +29,7 @@ def get_github_issues(repo_name: str) -> str:
         result += f"""
 # Issue {issue["number"]}
 
-## Title 
+## Title
 
 {issue["title"]}
 
@@ -60,7 +60,7 @@ def get_github_issues(repo_name: str) -> str:
 
     ## Issue 2
 
-    ### Title 
+    ### Title
 
     #Dark mode
 
@@ -77,7 +77,7 @@ def get_github_issues(repo_name: str) -> str:
 
     ### Description
 
-    #This apps sucks. Colors are wrong, it is not implemented in rust and does only run on windows devices 
+    #This apps sucks. Colors are wrong, it is not implemented in rust and does only run on windows devices
     #"""
 
 if __name__ == "__main__":

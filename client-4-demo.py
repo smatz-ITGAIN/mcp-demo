@@ -3,8 +3,8 @@ from fastmcp import Client
 
 client = Client("http://127.0.0.1:8000/mcp")
 
-#query = "confluence-document-1.md"
-query = "confluence-document-1.md; touch mymalware.sh; echo '------'; ls"
+query = "confluence-document-1.md"
+#query = "confluence-document-1.md; touch mymalware.sh; echo '------'; ls"
 
 async def main():
     async with client:
